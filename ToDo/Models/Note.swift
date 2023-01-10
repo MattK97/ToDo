@@ -7,12 +7,10 @@
 
 import Foundation
 
-enum Status{
-    case pending, done
-}
 
 struct Note {
     var title : String
     var info : String
-    var status : Status
+    var emoji : String
+    var created: Date
 }

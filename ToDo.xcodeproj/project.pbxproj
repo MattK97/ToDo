@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3FAE1141E25EE0C03DA287EE /* Pods_ToDo_ToDoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DAC7AED3B521634715A6A4 /* Pods_ToDo_ToDoUITests.framework */; };
+		B19381FF29689617009719AB /* OldestNotest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19381FE29689617009719AB /* OldestNotest.swift */; };
+		B1938201296896CF009719AB /* GroupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1938200296896CF009719AB /* GroupButton.swift */; };
+		B193820329689B54009719AB /* CircledIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B193820229689B54009719AB /* CircledIcon.swift */; };
+		B193820529689EF2009719AB /* GroupsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B193820429689EF1009719AB /* GroupsGridView.swift */; };
 		B1956E4629609F3C0017B1AD /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1956E4529609F3C0017B1AD /* Note.swift */; };
 		B1956E492960A1EB0017B1AD /* ListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1956E482960A1EB0017B1AD /* ListTile.swift */; };
-		B1956E4B2960A6240017B1AD /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1956E4A2960A6240017B1AD /* CheckBoxView.swift */; };
+		B1956E4B2960A6240017B1AD /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1956E4A2960A6240017B1AD /* EmojiView.swift */; };
 		B1A51661295D043C009F855F /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A51660295D043C009F855F /* RegisterView.swift */; };
 		B1A51663295D045E009F855F /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A51662295D045E009F855F /* RegisterViewModel.swift */; };
 		B1BAD241295CA6C000144A8F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BAD240295CA6C000144A8F /* LoginView.swift */; };
@@ -20,6 +24,8 @@
 		B1BAD249295CA83F00144A8F /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BAD248295CA83F00144A8F /* AuthenticationViewModel.swift */; };
 		B1BAD24E295CA9A600144A8F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BAD24D295CA9A600144A8F /* MainView.swift */; };
 		B1BAD250295D02B400144A8F /* ChangeScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BAD24F295D02B400144A8F /* ChangeScreenButton.swift */; };
+		B1C9EA93296DCAE500DC4EE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1C9EA92296DCAE500DC4EE4 /* GoogleService-Info.plist */; };
+		B1C9EA97296DCCEB00DC4EE4 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9EA96296DCCEB00DC4EE4 /* DashboardViewModel.swift */; };
 		B1CF89FE295CA4AA00564A12 /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF89FD295CA4AA00564A12 /* ToDoApp.swift */; };
 		B1CF8A00295CA4AA00564A12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF89FF295CA4AA00564A12 /* ContentView.swift */; };
 		B1CF8A02295CA4AC00564A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CF8A01295CA4AC00564A12 /* Assets.xcassets */; };
@@ -56,9 +62,13 @@
 		4AAF74FFC0A1C682FEB81A47 /* Pods-ToDo-ToDoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo-ToDoUITests.release.xcconfig"; path = "Target Support Files/Pods-ToDo-ToDoUITests/Pods-ToDo-ToDoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A86B9385CD6D3EFCF627E091 /* Pods-ToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo.release.xcconfig"; path = "Target Support Files/Pods-ToDo/Pods-ToDo.release.xcconfig"; sourceTree = "<group>"; };
 		AF1C23FAACD7D713B58AF925 /* Pods-ToDo-ToDoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo-ToDoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ToDo-ToDoUITests/Pods-ToDo-ToDoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B19381FE29689617009719AB /* OldestNotest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldestNotest.swift; sourceTree = "<group>"; };
+		B1938200296896CF009719AB /* GroupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupButton.swift; sourceTree = "<group>"; };
+		B193820229689B54009719AB /* CircledIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircledIcon.swift; sourceTree = "<group>"; };
+		B193820429689EF1009719AB /* GroupsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsGridView.swift; sourceTree = "<group>"; };
 		B1956E4529609F3C0017B1AD /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		B1956E482960A1EB0017B1AD /* ListTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTile.swift; sourceTree = "<group>"; };
-		B1956E4A2960A6240017B1AD /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		B1956E4A2960A6240017B1AD /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 		B1A51660295D043C009F855F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		B1A51662295D045E009F855F /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		B1BAD240295CA6C000144A8F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -68,6 +78,8 @@
 		B1BAD248295CA83F00144A8F /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		B1BAD24D295CA9A600144A8F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B1BAD24F295D02B400144A8F /* ChangeScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeScreenButton.swift; sourceTree = "<group>"; };
+		B1C9EA92296DCAE500DC4EE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1C9EA96296DCCEB00DC4EE4 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		B1CF89FA295CA4AA00564A12 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CF89FD295CA4AA00564A12 /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		B1CF89FF295CA4AA00564A12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,7 +157,11 @@
 			isa = PBXGroup;
 			children = (
 				B1956E482960A1EB0017B1AD /* ListTile.swift */,
-				B1956E4A2960A6240017B1AD /* CheckBoxView.swift */,
+				B1956E4A2960A6240017B1AD /* EmojiView.swift */,
+				B19381FE29689617009719AB /* OldestNotest.swift */,
+				B1938200296896CF009719AB /* GroupButton.swift */,
+				B193820229689B54009719AB /* CircledIcon.swift */,
+				B193820429689EF1009719AB /* GroupsGridView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -165,6 +181,7 @@
 				B1BAD242295CA6F400144A8F /* LoginViewModel.swift */,
 				B1BAD248295CA83F00144A8F /* AuthenticationViewModel.swift */,
 				B1A51662295D045E009F855F /* RegisterViewModel.swift */,
+				B1C9EA96296DCCEB00DC4EE4 /* DashboardViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -201,6 +218,7 @@
 		B1CF89F1295CA4AA00564A12 = {
 			isa = PBXGroup;
 			children = (
+				B1C9EA92296DCAE500DC4EE4 /* GoogleService-Info.plist */,
 				B1CF89FC295CA4AA00564A12 /* ToDo */,
 				B1CF8A0D295CA4AC00564A12 /* ToDoTests */,
 				B1CF8A17295CA4AC00564A12 /* ToDoUITests */,
@@ -370,6 +388,7 @@
 			files = (
 				B1CF8A05295CA4AC00564A12 /* Preview Assets.xcassets in Resources */,
 				B1CF8A02295CA4AC00564A12 /* Assets.xcassets in Resources */,
+				B1C9EA93296DCAE500DC4EE4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,16 +520,21 @@
 				B1A51661295D043C009F855F /* RegisterView.swift in Sources */,
 				B1BAD24E295CA9A600144A8F /* MainView.swift in Sources */,
 				B1BAD241295CA6C000144A8F /* LoginView.swift in Sources */,
+				B1C9EA97296DCCEB00DC4EE4 /* DashboardViewModel.swift in Sources */,
 				B1A51663295D045E009F855F /* RegisterViewModel.swift in Sources */,
+				B1938201296896CF009719AB /* GroupButton.swift in Sources */,
 				B1BAD249295CA83F00144A8F /* AuthenticationViewModel.swift in Sources */,
 				B1BAD247295CA77A00144A8F /* CustomButton.swift in Sources */,
-				B1956E4B2960A6240017B1AD /* CheckBoxView.swift in Sources */,
+				B1956E4B2960A6240017B1AD /* EmojiView.swift in Sources */,
 				B1CF8A00295CA4AA00564A12 /* ContentView.swift in Sources */,
 				B1CF89FE295CA4AA00564A12 /* ToDoApp.swift in Sources */,
 				B1BAD250295D02B400144A8F /* ChangeScreenButton.swift in Sources */,
 				B1BAD245295CA71D00144A8F /* CustomTextField.swift in Sources */,
+				B19381FF29689617009719AB /* OldestNotest.swift in Sources */,
 				B1956E4629609F3C0017B1AD /* Note.swift in Sources */,
 				B1956E492960A1EB0017B1AD /* ListTile.swift in Sources */,
+				B193820529689EF2009719AB /* GroupsGridView.swift in Sources */,
+				B193820329689B54009719AB /* CircledIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,17 +9,15 @@ import SwiftUI
 
 struct ListTile: View {
     var note: Note
-    @State var checked: Bool
     
     init(note: Note) {
         self.note = note
-        checked = note.status == Status.done
     }
     
     
     var body: some View {
         HStack{
-            CheckBoxView(checked: $checked)
+            EmojiView(emoji: note.emoji)
             Text(note.title)
             Spacer()
         }
@@ -28,6 +26,6 @@ struct ListTile: View {
 
 struct ListTile_Previews: PreviewProvider {
     static var previews: some View {
-        ListTile(note: Note(title: "Test", info: "Test", status: Status.pending))
+        ListTile(note: Note(title: "Test", info: "Test", emoji: "S", created: Date()))
     }
 }
